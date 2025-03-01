@@ -84,7 +84,7 @@
 
         profile-switch {
             bindings = <
-&to 0   &to 4   &to 5   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &to 5   &to 5   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
