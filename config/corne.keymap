@@ -82,21 +82,30 @@
             >;
         };
 
-        layer_3 {
+        profile-switch {
             bindings = <
-&to 4   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &to 4   &to 5   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
-        layer_4 {
+        notsureyet {
             bindings = <
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                               &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        gaming-profile {
+            bindings = <
+&trans          &trans  &kp W   &trans  &trans        &kp T               &trans  &trans  &trans  &trans  &trans  &trans
+&mo 3           &kp A   &kp S   &kp D   &trans        &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans        &trans              &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &kp LEFT_ALT  &kp LEFT_CONTROL    &trans  &trans  &trans
             >;
         };
     };
